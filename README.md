@@ -75,8 +75,7 @@ This article by Michael Guidry explores the complexities and challenges of traci
 
 ## Article abstracts #meddler
 
-### Defeating digital mass surveillance programs, or the sale of browser
-history by ISPs within USA and abroad
+### Defeating digital mass surveillance programs, or the sale of browser history by ISPs within USA and abroad
 
 This article explores the vulnerabilities and countermeasures associated with digital mass surveillance programs, particularly focusing on the tactics used by the NSA's Quantum Insert program. It discusses the feasibility of disrupting these surveillance efforts through deliberate manipulation of TCP/IP protocols and packet spoofing. The article emphasizes the inherent weaknesses in surveillance systems due to the limitations of current internet protocols and suggests that these vulnerabilities can be exploited to create false positives, thereby exhausting the resources of surveillance programs.
 
