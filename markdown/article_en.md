@@ -24,10 +24,14 @@ It contains at least a small piece about Michael:
 
 During my research, I came across the following comment (can be found on [this](https://webcache.googleusercontent.com/search?q=cache:mvJC71UWDtUJ:https://www.amazon.com/Mafiaboy-Cracked-Internet-Still-Broken/dp/0670067482+&cd=13&hl=ru&ct=clnk&gl=ru) page by searching for phifli) to this book:
 
-> I was an actual member of `tnt/phorce` and I recall things VERY differently. MB asked others to help him packet the sites that were mentioned in the news, and most of them said F' off. Mafiaboy wrote no tools at all, most of any attack programs were written by phifli, sinkhole and a few select others. He did use a semi-public scanner to 'own' machines (solaris boxes, irix) and just either put bots on them, or used them with trinoo. Before trinoo, he simply logged into a bunch of machines and manually [smurf'd](https://en.wikipedia.org/wiki/Smurf_attack) or UDP flooded targets. 
+> I was an actual member of `tnt/phorce` and I recall things VERY differently. MB asked others to help him packet the sites that were mentioned in the news, and most of them said F' off. Mafiaboy wrote no tools at all, most of any attack programs were written by phifli, sinkhole and a few select others. He did use a semi-public scanner to 'own' machines (solaris boxes, irix) and just either put bots on them, or used them with trinoo. Before trinoo, he simply logged into a bunch of machines and manually [smurf'd](https://en.wikipedia.org/wiki/Smurf_attack) or UDP flooded targets.
+
 > I think he just wrote this because nobody wants to hire him, and he wanted to make money off of other people's accomplishments. What's sad is he made money off the following people:
+
 > ShadowKnight, phifli, dreamwalk, sinkhole, CORE (group), conflict (group), madcrew (group), NoName (group), chrome (group)
+
 > .. And countless others. By attacking all of those sites, he initially was the result of many people just giving it up (ie: phifli, dreamwalk, myself) because he attracted unwanted attention to the scene. I'm pretty sure Mshadow was the one who leaked the logs of him attacking the sites to the RCMP/FBI and that's what got him busted. There is much hatred towards him for this book, him attacking corporate companies. I showed this book to someone who was around at the same and his jaw dropped as the BS that is in this book.
+
 > Also, the media portrays MB as some superhacker. HAH. Far from it, he's a victim of the public's stupidity.
 
 An article dedicated to the attacks (2002): https://www.cnet.com/news/hacker-discloses-new-internet-attack-software/
@@ -45,6 +49,7 @@ On 06.11.17 at 17:14 MSK, a post appeared on the [FTP channel of a bot scanner i
 ![image1](img1.png)
 
 The most interesting ones were, of course:
+
 - anti_mass_surveillance_proof_of_concept.tbz2
 - bypassing_signal_intelligence_platforms.pdf
 - congress_fax_9_22_17.pdf
@@ -84,9 +89,11 @@ The thought of global surveillance obviously no longer leaves Michael's mind, as
 Recent posts from there:
 
 > michael guidry‏ @phifli 24 hours ago
+
 > For everyone who thought my attacks against surveillance platforms were theoretical or too hard.. I just accomplished it in a weekend
 
 > michael guidry‏ @phifli Nov 6
+
 > Wait till you guys get sight of what I plan on doing in the future w resources... LOL everything im doing now is a joke in comparison
 
 Recently, Michael has been developing a sort of "surveillance killer" ([github](https://github.com/mikeguidry/clockwork/tree/antisurveillance)). As far as I could understand from everything I've learned during this time, he wants to fight both total control and hackers on the internet (?). If his statements are to be believed, he is ready to put his development into action. Unfortunately, I didn't have time to understand the principle of operation or read the code, and reading someone else's (albeit undoubtedly high-quality) C++ code is quite a challenging task.
@@ -105,6 +112,7 @@ Here are a few unsorted links that I saved for myself during the search; these c
 - ftp://d.easystyle.org/
 
 And here are some data about Michael. However, all this can easily be found on the internet:
+
 - Lived in Tennessee, LA, Florida, Texas, Louisiana, as well as Dubai, Australia, Germany, UAE. Currently resides in Miami (presumed address: Miami 45 SW, 24th Rd, Miami, FL, 33129-1509)
 - Only the year of birth is reliably known - 1985. The full date might be 31.07.1985
 
@@ -122,9 +130,6 @@ Given this and the fact that Michael intended to act by all possible means, perh
 
 > The whole point is that since crimes continue to be committed against me I have decided to release information to cause entire different parts of this, and other governments to bat their eyebrows.  I am absolutely positive it has worked although I am still being drugged.  I will continue to exponentially increase the stakes while this continues to take place in my life.
 
-Translation:
-> The whole point is that since crimes continue to be committed against me, I have decided to release information to cause a stir everywhere, and other governments to be stunned. I am absolutely sure it worked, although I am still being drugged. And I will continue to exponentially increase the stakes while this is part of my life.
-
 As for the very first one - using only open (almost the entire file system!) data, I found out that there is a user www (ftp://220.126.225.91/etc/passwd) and that he has an empty password. This allowed me to connect to the server remotely, but I didn't find anything particularly interesting there. And due to the legacy state of the SSH server on this machine, I had to tinker with the connection, and the command looks like
 
 > ssh www@220.126.225.91 -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc
@@ -138,6 +143,7 @@ Although searches in this direction yielded nothing (besides - what if he really
 In general, this is all I managed to find in one evening.
 
 Once again, a list of what you can read about this whole story:
+
 - Letter to the family: http://mikeguidry.net/a.txt
 - Letter to embassies: http://mikeguidry.net/releases/new_complaint.pdf
 - Twitter: https://twitter.com/phifli/
